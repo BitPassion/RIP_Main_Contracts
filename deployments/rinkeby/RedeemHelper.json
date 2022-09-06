@@ -1,0 +1,233 @@
+{
+  "address": "0x00C064e61a8884E92A370eafD3fdf1f0Cb67e588",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipPulled",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipPushed",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_bond",
+          "type": "address"
+        }
+      ],
+      "name": "addBondContract",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "bonds",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "policy",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "pullManagement",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newOwner_",
+          "type": "address"
+        }
+      ],
+      "name": "pushManagement",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_recipient",
+          "type": "address"
+        },
+        {
+          "internalType": "bool",
+          "name": "_stake",
+          "type": "bool"
+        }
+      ],
+      "name": "redeemAll",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_index",
+          "type": "uint256"
+        }
+      ],
+      "name": "removeBondContract",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "renounceManagement",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x42f11e496ff4ca3a3bd5b08a570784148a7765f8630281b823ceb64d0092d746",
+  "receipt": {
+    "to": null,
+    "from": "0x0fbd6e14566A30906Bc0c927a75b1498aE87Fd43",
+    "contractAddress": "0x00C064e61a8884E92A370eafD3fdf1f0Cb67e588",
+    "transactionIndex": 8,
+    "gasUsed": "476262",
+    "logsBloom": "0x00000000000000080000000000000000000000000000000000000004000000000000400000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000800000000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000020000800020000000000020000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x913e62c34f0738b7d208d9984bd6ec12dc4fcd7fbe01331ae05763359b0a727f",
+    "transactionHash": "0x42f11e496ff4ca3a3bd5b08a570784148a7765f8630281b823ceb64d0092d746",
+    "logs": [
+      {
+        "transactionIndex": 8,
+        "blockNumber": 10291418,
+        "transactionHash": "0x42f11e496ff4ca3a3bd5b08a570784148a7765f8630281b823ceb64d0092d746",
+        "address": "0x00C064e61a8884E92A370eafD3fdf1f0Cb67e588",
+        "topics": [
+          "0xea8258f2d9ddb679928cf34b78cf645b7feda9acc828e4dd82d014eaae270eba",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x0000000000000000000000000fbd6e14566a30906bc0c927a75b1498ae87fd43"
+        ],
+        "data": "0x",
+        "logIndex": 17,
+        "blockHash": "0x913e62c34f0738b7d208d9984bd6ec12dc4fcd7fbe01331ae05763359b0a727f"
+      }
+    ],
+    "blockNumber": 10291418,
+    "cumulativeGasUsed": "5043188",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "solcInputHash": "39a4e4c88abab09f99837fdcce2cb975",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.5+commit.eb77ed08\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"previousOwner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"OwnershipPulled\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"previousOwner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"OwnershipPushed\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_bond\",\"type\":\"address\"}],\"name\":\"addBondContract\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"bonds\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"policy\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"pullManagement\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"newOwner_\",\"type\":\"address\"}],\"name\":\"pushManagement\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_recipient\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"_stake\",\"type\":\"bool\"}],\"name\":\"redeemAll\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_index\",\"type\":\"uint256\"}],\"name\":\"removeBondContract\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceManagement\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/RedeemHelper.sol\":\"RedeemHelper\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"none\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":800},\"remappings\":[]},\"sources\":{\"contracts/RedeemHelper.sol\":{\"content\":\"/**\\r\\n *Submitted for verification at Etherscan.io on 2021-06-24\\r\\n*/\\r\\n\\r\\n// SPDX-License-Identifier: MIT\\r\\npragma solidity 0.7.5;\\r\\n\\r\\ninterface IOwnable {\\r\\n  function policy() external view returns (address);\\r\\n\\r\\n  function renounceManagement() external;\\r\\n  \\r\\n  function pushManagement( address newOwner_ ) external;\\r\\n  \\r\\n  function pullManagement() external;\\r\\n}\\r\\n\\r\\ncontract Ownable is IOwnable {\\r\\n\\r\\n    address internal _owner;\\r\\n    address internal _newOwner;\\r\\n\\r\\n    event OwnershipPushed(address indexed previousOwner, address indexed newOwner);\\r\\n    event OwnershipPulled(address indexed previousOwner, address indexed newOwner);\\r\\n\\r\\n    constructor () {\\r\\n        _owner = msg.sender;\\r\\n        emit OwnershipPushed( address(0), _owner );\\r\\n    }\\r\\n\\r\\n    function policy() public view override returns (address) {\\r\\n        return _owner;\\r\\n    }\\r\\n\\r\\n    modifier onlyPolicy() {\\r\\n        require( _owner == msg.sender, \\\"Ownable: caller is not the owner\\\" );\\r\\n        _;\\r\\n    }\\r\\n\\r\\n    function renounceManagement() public virtual override onlyPolicy() {\\r\\n        emit OwnershipPushed( _owner, address(0) );\\r\\n        _owner = address(0);\\r\\n    }\\r\\n\\r\\n    function pushManagement( address newOwner_ ) public virtual override onlyPolicy() {\\r\\n        require( newOwner_ != address(0), \\\"Ownable: new owner is the zero address\\\");\\r\\n        emit OwnershipPushed( _owner, newOwner_ );\\r\\n        _newOwner = newOwner_;\\r\\n    }\\r\\n    \\r\\n    function pullManagement() public virtual override {\\r\\n        require( msg.sender == _newOwner, \\\"Ownable: must be new owner to pull\\\");\\r\\n        emit OwnershipPulled( _owner, _newOwner );\\r\\n        _owner = _newOwner;\\r\\n    }\\r\\n}\\r\\n\\r\\ninterface IBond {\\r\\n    function redeem( address _recipient, bool _stake ) external returns ( uint );\\r\\n    function pendingPayoutFor( address _depositor ) external view returns ( uint pendingPayout_ );\\r\\n}\\r\\n\\r\\ncontract RedeemHelper is Ownable {\\r\\n\\r\\n    address[] public bonds;\\r\\n\\r\\n    function redeemAll( address _recipient, bool _stake ) external {\\r\\n        for( uint i = 0; i < bonds.length; i++ ) {\\r\\n            if ( bonds[i] != address(0) ) {\\r\\n                if ( IBond( bonds[i] ).pendingPayoutFor( _recipient ) > 0 ) {\\r\\n                    IBond( bonds[i] ).redeem( _recipient, _stake );\\r\\n                }\\r\\n            }\\r\\n        }\\r\\n    }\\r\\n\\r\\n    function addBondContract( address _bond ) external onlyPolicy() {\\r\\n        require( _bond != address(0) );\\r\\n        bonds.push( _bond );\\r\\n    }\\r\\n\\r\\n    function removeBondContract( uint _index ) external onlyPolicy() {\\r\\n        bonds[ _index ] = address(0);\\r\\n    }\\r\\n}\",\"keccak256\":\"0xed41bc93737a13e2253881cd2345ebbec33b4090060d8f7e8501df062d318935\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50600080546001600160a01b03191633178082556040516001600160a01b039190911691907fea8258f2d9ddb679928cf34b78cf645b7feda9acc828e4dd82d014eaae270eba908290a3610734806100696000396000f3fe608060405234801561001057600080fd5b50600436106100885760003560e01c806346f68ee91161005b57806346f68ee91461010f5780635a96ac0a146101355780635f1c17c01461013d578063b1e59ab71461015a57610088565b80630505c8c91461008d578063089208d8146100b15780630a6d1860146100bb57806346aed74e146100e1575b600080fd5b610095610177565b604080516001600160a01b039092168252519081900360200190f35b6100b9610186565b005b6100b9600480360360208110156100d157600080fd5b50356001600160a01b031661022f565b6100b9600480360360408110156100f757600080fd5b506001600160a01b03813516906020013515156102f3565b6100b96004803603602081101561012557600080fd5b50356001600160a01b031661046d565b6100b961056c565b6100956004803603602081101561015357600080fd5b5035610616565b6100b96004803603602081101561017057600080fd5b5035610640565b6000546001600160a01b031690565b6000546001600160a01b031633146101e5576040805162461bcd60e51b815260206004820181905260248201527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572604482015290519081900360640190fd5b600080546040516001600160a01b03909116907fea8258f2d9ddb679928cf34b78cf645b7feda9acc828e4dd82d014eaae270eba908390a3600080546001600160a01b0319169055565b6000546001600160a01b0316331461028e576040805162461bcd60e51b815260206004820181905260248201527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572604482015290519081900360640190fd5b6001600160a01b0381166102a157600080fd5b600280546001810182556000919091527f405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace0180546001600160a01b0319166001600160a01b0392909216919091179055565b60005b6002548110156104685760006001600160a01b03166002828154811061031857fe5b6000918252602090912001546001600160a01b0316146104605760006002828154811061034157fe5b6000918252602091829020015460408051623711dd60e31b81526001600160a01b038881166004830152915191909216926301b88ee89260248082019391829003018186803b15801561039357600080fd5b505afa1580156103a7573d6000803e3d6000fd5b505050506040513d60208110156103bd57600080fd5b5051111561046057600281815481106103d257fe5b600091825260208083209091015460408051631feed31f60e01b81526001600160a01b038881166004830152871515602483015291519190921693631feed31f93604480850194919392918390030190829087803b15801561043357600080fd5b505af1158015610447573d6000803e3d6000fd5b505050506040513d602081101561045d57600080fd5b50505b6001016102f6565b505050565b6000546001600160a01b031633146104cc576040805162461bcd60e51b815260206004820181905260248201527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572604482015290519081900360640190fd5b6001600160a01b0381166105115760405162461bcd60e51b81526004018080602001828103825260268152602001806106e06026913960400191505060405180910390fd5b600080546040516001600160a01b03808516939216917fea8258f2d9ddb679928cf34b78cf645b7feda9acc828e4dd82d014eaae270eba91a3600180546001600160a01b0319166001600160a01b0392909216919091179055565b6001546001600160a01b031633146105b55760405162461bcd60e51b81526004018080602001828103825260228152602001806107066022913960400191505060405180910390fd5b600154600080546040516001600160a01b0393841693909116917faa151555690c956fc3ea32f106bb9f119b5237a061eaa8557cff3e51e3792c8d91a3600154600080546001600160a01b0319166001600160a01b03909216919091179055565b6002818154811061062657600080fd5b6000918252602090912001546001600160a01b0316905081565b6000546001600160a01b0316331461069f576040805162461bcd60e51b815260206004820181905260248201527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572604482015290519081900360640190fd5b6000600282815481106106ae57fe5b9060005260206000200160006101000a8154816001600160a01b0302191690836001600160a01b031602179055505056fe4f776e61626c653a206e6577206f776e657220697320746865207a65726f20616464726573734f776e61626c653a206d757374206265206e6577206f776e657220746f2070756c6ca164736f6c6343000705000a",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100885760003560e01c806346f68ee91161005b57806346f68ee91461010f5780635a96ac0a146101355780635f1c17c01461013d578063b1e59ab71461015a57610088565b80630505c8c91461008d578063089208d8146100b15780630a6d1860146100bb57806346aed74e146100e1575b600080fd5b610095610177565b604080516001600160a01b039092168252519081900360200190f35b6100b9610186565b005b6100b9600480360360208110156100d157600080fd5b50356001600160a01b031661022f565b6100b9600480360360408110156100f757600080fd5b506001600160a01b03813516906020013515156102f3565b6100b96004803603602081101561012557600080fd5b50356001600160a01b031661046d565b6100b961056c565b6100956004803603602081101561015357600080fd5b5035610616565b6100b96004803603602081101561017057600080fd5b5035610640565b6000546001600160a01b031690565b6000546001600160a01b031633146101e5576040805162461bcd60e51b815260206004820181905260248201527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572604482015290519081900360640190fd5b600080546040516001600160a01b03909116907fea8258f2d9ddb679928cf34b78cf645b7feda9acc828e4dd82d014eaae270eba908390a3600080546001600160a01b0319169055565b6000546001600160a01b0316331461028e576040805162461bcd60e51b815260206004820181905260248201527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572604482015290519081900360640190fd5b6001600160a01b0381166102a157600080fd5b600280546001810182556000919091527f405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace0180546001600160a01b0319166001600160a01b0392909216919091179055565b60005b6002548110156104685760006001600160a01b03166002828154811061031857fe5b6000918252602090912001546001600160a01b0316146104605760006002828154811061034157fe5b6000918252602091829020015460408051623711dd60e31b81526001600160a01b038881166004830152915191909216926301b88ee89260248082019391829003018186803b15801561039357600080fd5b505afa1580156103a7573d6000803e3d6000fd5b505050506040513d60208110156103bd57600080fd5b5051111561046057600281815481106103d257fe5b600091825260208083209091015460408051631feed31f60e01b81526001600160a01b038881166004830152871515602483015291519190921693631feed31f93604480850194919392918390030190829087803b15801561043357600080fd5b505af1158015610447573d6000803e3d6000fd5b505050506040513d602081101561045d57600080fd5b50505b6001016102f6565b505050565b6000546001600160a01b031633146104cc576040805162461bcd60e51b815260206004820181905260248201527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572604482015290519081900360640190fd5b6001600160a01b0381166105115760405162461bcd60e51b81526004018080602001828103825260268152602001806106e06026913960400191505060405180910390fd5b600080546040516001600160a01b03808516939216917fea8258f2d9ddb679928cf34b78cf645b7feda9acc828e4dd82d014eaae270eba91a3600180546001600160a01b0319166001600160a01b0392909216919091179055565b6001546001600160a01b031633146105b55760405162461bcd60e51b81526004018080602001828103825260228152602001806107066022913960400191505060405180910390fd5b600154600080546040516001600160a01b0393841693909116917faa151555690c956fc3ea32f106bb9f119b5237a061eaa8557cff3e51e3792c8d91a3600154600080546001600160a01b0319166001600160a01b03909216919091179055565b6002818154811061062657600080fd5b6000918252602090912001546001600160a01b0316905081565b6000546001600160a01b0316331461069f576040805162461bcd60e51b815260206004820181905260248201527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572604482015290519081900360640190fd5b6000600282815481106106ae57fe5b9060005260206000200160006101000a8154816001600160a01b0302191690836001600160a01b031602179055505056fe4f776e61626c653a206e6577206f776e657220697320746865207a65726f20616464726573734f776e61626c653a206d757374206265206e6577206f776e657220746f2070756c6ca164736f6c6343000705000a",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 22,
+        "contract": "contracts/RedeemHelper.sol:RedeemHelper",
+        "label": "_owner",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_address"
+      },
+      {
+        "astId": 24,
+        "contract": "contracts/RedeemHelper.sol:RedeemHelper",
+        "label": "_newOwner",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_address"
+      },
+      {
+        "astId": 169,
+        "contract": "contracts/RedeemHelper.sol:RedeemHelper",
+        "label": "bonds",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_array(t_address)dyn_storage"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_array(t_address)dyn_storage": {
+        "base": "t_address",
+        "encoding": "dynamic_array",
+        "label": "address[]",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
